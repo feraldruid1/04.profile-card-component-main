@@ -1,0 +1,25 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+body {
+    background: #19A1AE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+.mainbox {
+    background-image: url("./images/bg-pattern-card.svg");
+    width: 350px;
+    height: 374px;
+    border-radius: 15px;
+    background: #FFFFFF;
+    overflow: hidden;
+}
+
+.manpicture {
+    border-radius: 50%;
+    
+}
