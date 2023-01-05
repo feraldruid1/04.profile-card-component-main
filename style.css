@@ -1,6 +1,9 @@
 * {
 margin: 0px;
 padding: 0px;
+box-sizing: border-box;
+font-family: 'Kumbh Sans';
+background-repeat: no-repeat;
 }
 body {
     background: #19A1AE;
@@ -12,14 +15,106 @@ body {
 }
 .mainbox {
     background-image: url("./images/bg-pattern-card.svg");
+    background-size: 350px 140px;
     width: 350px;
     height: 374px;
     border-radius: 15px;
-    background: #FFFFFF;
-    overflow: hidden;
+    background-color: white;
 }
 
 .manpicture {
     border-radius: 50%;
+    border: 5px solid #FFFFFF;
     
+}
+.borderbox {
+    height: 285px;
+    width: 350px;
+    border-bottom: 1px solid #E8E9EC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.victor {
+    display: inline;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+.age {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6B7082;
+}
+.city {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #6B7082;
+    margin-top: 13px;
+}
+.count {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2E3349;
+    
+}
+.followers {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #6B7082;
+    margin-top: 9px;
+}
+.likescount {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2E3349;
+    
+}
+.likes {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #6B7082;
+    margin-top: 9px;
+}
+.photoscount {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2E3349;
+    
+}
+.photos {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #6B7082;
+    margin-top: 9px;
+}
+.countsbox {
+    height: 88px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.countfollows {
+    display: flex;
+    flex-direction: column;
+    
+}
+.countphotos {
+    display: flex;
+    flex-direction: column;
+        
+}
+.countlikes {
+    display: flex;
+    flex-direction: column;
+        
 }
