@@ -5,7 +5,10 @@ font-family: 'Kumbh Sans';
 background-repeat: no-repeat;
 }
 body {
-    background: #19A1AE;
+    
+    background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+    background-position: left -100% top 150% , right -50% bottom 170%;
+    background-color: #19a1ad;
     display: flex;
     justify-content: center;
     align-items: center;
