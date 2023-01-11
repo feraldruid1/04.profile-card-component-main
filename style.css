@@ -7,7 +7,7 @@ background-repeat: no-repeat;
 body {
     
     background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
-    background-position: left -100% top 150% , right -50% bottom 170%;
+    background-position: calc(-46vw + 100%) calc(-34vh + 100%), 45vw 45vh;
     background-color: #19a1ad;
     display: flex;
     justify-content: center;
@@ -134,3 +134,9 @@ body {
     height: 140px;
 
 }
+@media only screen and (max-width: 326px) {
+    .mainbox {
+      max-width: 100%;
+    }
+  }  
+  
