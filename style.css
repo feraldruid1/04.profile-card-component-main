@@ -23,12 +23,10 @@ body {
     border-radius: 15px;
     background-color: white;
 }
-
 .manpicture {
     border-radius: 50%;
     border: 5px solid #FFFFFF;
     align-self: center;
-    
 }
 .borderbox {
     height: 285px;
@@ -36,7 +34,6 @@ body {
     border-bottom: 1px solid #E8E9EC;
     display: flex;
     justify-content: center;
-    
     flex-direction: column;
 }
 .victor {
@@ -134,9 +131,12 @@ body {
     height: 140px;
 
 }
-@media only screen and (max-width: 326px) {
+@media only screen and (max-width: 375px) {
     .mainbox {
-      max-width: 100%;
+      width: 326px;
+    }
+    .borderbox {
+        width: 326px;
     }
   }  
   
